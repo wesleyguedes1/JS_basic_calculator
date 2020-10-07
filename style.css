@@ -40,8 +40,6 @@ div#container > button {
     text-align: center;
     
 }
-/*div#container > button:hover {
-}*/
 div#container > button:active {
     background-color:#FFFFFF;
     border-style: solid;
