@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Calculadora</title>
+        <link rel = 'stylesheet' href = 'style.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div id = 'container'>
+            <div id = 'display'></div>
+            <button type = 'button' onclick = " addNumber('1'); document.getElementById('display').innerHTML += '1';">1</button>
+            <button type = 'button' onclick = " addNumber('2'); document.getElementById('display').innerHTML += '2'">2</button>
+            <button type = 'button' onclick = " addNumber('3'); document.getElementById('display').innerHTML += '3';">3</button>
+            <button type = 'button' onclick = " soma(); document.getElementById('display').innerHTML += '+';">+</button>
+            <button type = 'button' onclick = " addNumber('4'); document.getElementById('display').innerHTML += '4';">4</button>
+            <button type = 'button' onclick = " addNumber('5'); document.getElementById('display').innerHTML += '5';">5</button>
+            <button type = 'button' onclick = " addNumber('6'); document.getElementById('display').innerHTML += '6';">6</button>
+            <button type = 'button' onclick = " sub(); document.getElementById('display').innerHTML += '-';">-</button>
+            <button type = 'button' onclick = " addNumber('7'); document.getElementById('display').innerHTML += '7';">7</button>
+            <button type = 'button' onclick = " addNumber('8'); document.getElementById('display').innerHTML += '8';">8</button>
+            <button type = 'button' onclick = " addNumber('9'); document.getElementById('display').innerHTML += '9';">9</button>
+            <button type = 'button' onclick = " mult(); document.getElementById('display').innerHTML += '*';">*</button>
+            <button type = 'button'>.</button>
+            <button type = 'button' onclick = " addNumber('0'); document.getElementById('display').innerHTML += '0';">0</button>
+            <button type = 'button' onclick = "calcular()">=</button>
+            <button type = 'button' onclick = "div(); document.getElementById('display').innerHTML += '/';">/</button>
+        </div>
+    </body>
+</html>
